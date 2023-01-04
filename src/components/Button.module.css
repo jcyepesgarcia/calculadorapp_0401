@@ -1,0 +1,25 @@
+.btn{
+  height: 16%;
+  width: 21.25%;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: #f4f1f1;
+  user-select: none;
+  box-shadow: 5px 5px 10px #bebebe;
+  cursor: pointer;
+}
+
+.res{
+  width: 42.5%;
+  background-color: rgba(255, 166, 0, 0.709);
+}
+
+@media (max-width: 768px){
+  .btn{
+    font-size: 1.1rem;
+  }
+}
